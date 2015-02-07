@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+.clear { clear:both; }
+form{ margin:0px; padding:0px;}
+p{ margin:0px; padding:0px;}
+img{border:none;}
+h1,h2,h3{ margin:0;padding:0;}
+
+#wrapper{width:992px; margin:0 auto; padding:0;}
+.header{width:992px; margin:0; padding:0; }
+.tripadvisor{ float:left; margin:50px 10px 0 10px;}
+
+#slider-wrap { width:992px; margin-bottom:10px;}
+#faded { width:900px; position:relative; height:404px; overflow:hidden;}
+#faded ul { list-style:none; padding:0; margin:0; }
+#faded ul.slide li { cursor:pointer; overflow:hidden;}
+ul.pagination { list-style:none; padding:0; margin:0; position:absolute; left:-14px; bottom:0; }
+ul.pagination li { float:left; padding-left:14px;}
+a { outline:0; border:0; }
+.parent ul{ height:308px;background:url(../images/trans.png) repeat;}
+.main_contant{ width:971px; padding-top:10px;  margin:0 auto; position:relative;}
+.main_contant h1{ padding:0 0 8px 0; color:#9A9A9A; font-size:23px; font-weight:bold;}
+.artical{ float:left; width:468px;}
+.artical_inside{ float:left; width:450px; z-index:1000;  padding-left:20px;}
+.Wildlife{ width:490px; float:left;}
+
+.convert_currency{ float:left; width:340px; padding-left:100px; padding-top:10px; padding-right:40px;}
+.convert_currency p{ line-height:16px; color:#B1B1B1;}
+.convert_currency p span{ color:#000000; text-transform:uppercase; }
+
+.on_pay{ padding:10px 0 0 20px; width:700px; float:left;}
+.on_pay h2{ font-weight:bold; font-size:14px; color:#F28E18; padding:0 0 4px 0;}
+.on_pay p{ line-height:16px; color:#000000;}
+
+.trip{ float:left; padding:20px 0 0 40px; width:520px;}
+.Testimonials{ float:right; width:390px; padding:10px 0 0 0;}
+.Testimonials h1{padding:0 0 8px 0; color:#9A9A9A; font-size:23px; font-weight:bold; }
+.Testimonials h2{padding:0 0 8px 0; color:#9A9A9A; font-size:18px; font-weight:bold; }
+.Testimonials p{padding:0 0 8px 0; color:#000; font-size:15px; font-weight:normal; }
+.Testimonials p a{color:#000; text-decoration:none;}
+
+
+#slideshow {
+    position:relative;
+    height:404px; 
+	
+}
+
+#slideshow IMG {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+}
+
+#slideshow IMG.active {
+    z-index:10;
+    opacity:1.0;
+}
+
+#slideshow IMG.last-active {
+    z-index:9;
+}
+.reservation{ width:800px; margin:0 auto; padding:0; }
+.reservation h1{ padding:15px 0 0px 0; color:#9A9A9A; font-size:24px; font-weight:bold; text-align:center; font-family:Tahoma;}
+.rs_row{ width:400px; padding:3px 0;}
+.rs_row_l{ font-size:12px; float:left; width:100px; line-height:20px; color:#666;}
+.rs_row_r{ float:left; width:275px;line-height:20px; }
+.rs_row_r input{ border:#999 1px solid; height:20px; font-size:12px; color:#9A9A9A; width:150px;}
+.rs_row_r textarea{ border:#999 1px solid;  font-size:12px; color:#9A9A9A;width:270px;}
+.rs_row_buttons{  width:374px; }
+
+.tahoma {font-family:Tahoma;}
+
+
