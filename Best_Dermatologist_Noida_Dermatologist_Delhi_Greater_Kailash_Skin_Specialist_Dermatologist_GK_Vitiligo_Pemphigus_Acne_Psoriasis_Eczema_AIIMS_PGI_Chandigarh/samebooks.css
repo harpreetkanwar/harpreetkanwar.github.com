@@ -1,0 +1,898 @@
+/* CSS Document */
+
+
+body {
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px; height:100%;
+	background-color: #FFF;
+
+}
+
+.submenu {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 10px;
+	color: #333;
+	text-align: left; line-height:1.5; text-decoration: none; padding-left:0px; padding-right:20px; 
+}
+
+.submenu:link {
+	color: #333;
+}
+
+.submenu:visited {
+  color: #333;
+}
+
+.submenu:hover {
+	color: #000;
+}
+
+.submenu:active {
+	color: #333;
+}
+
+
+.intexthead {
+	font-family: clearlygothic;
+	font-size: 34px;
+	color: #c5c4c4;
+	text-align: left; line-height:1.1; text-decoration: none; 
+}
+
+.intextheadsub {
+	font-family: clearlygothic;
+	font-size: 18px;
+	color: #f19daf;
+	text-align: left; line-height:1.2; text-decoration: none; 
+}
+
+.intextnormal {
+	font-family:Arial; 
+	font-size: 14px;
+	color: #666;  
+
+}
+
+
+.intextbold {
+	font-family:Arial;
+	font-size: 14px; font-weight: bold; 
+	color: #666;  
+
+}
+
+
+.skinintexthead {
+	font-family: clearlygothic; font-size: 34px; color: #c5c4c4; text-align: left; line-height:1.1; text-decoration: none; 
+}
+
+.skinintextheadsub {
+	font-family: clearlygothic; font-size: 18px; color: #768e7c; text-align: left; line-height:1.2; text-decoration: none; 
+}
+
+.skinintextnormalgreen {
+	font-family:Arial; font-size: 12px; color: #93a899;  
+}
+
+
+.skinintextnormal {
+	font-family:Arial; font-size: 12px; color: #666;  
+}
+
+
+.skinintextbold {
+	font-family:Arial; font-size: 14px; font-weight: bold; color: #666;  
+}
+
+
+.skinintextlink {
+	font-family: Arial; font-size: 12px; color: #7dcbdb; text-align: left; text-decoration: none;  
+}
+
+.skinintextlink:link {
+	color: #7dcbdb;
+}
+
+.skinintextlink:visited {
+  color: #7dcbdb;
+}
+
+.skinintextlink:hover {
+	color: #7dcbdb; text-decoration:underline;
+}
+
+.skinintextlink:active {
+	color: #7dcbdb;
+}
+
+
+.profileintexthead {
+	font-family: clearlygothic; font-size: 34px; color: #c5c4c4; text-align: left; line-height:1.1; text-decoration: none; 
+}
+
+.profileintextheadsub {
+	font-family: clearlygothic; font-size: 18px; color: #ee8d9d; text-align: left; line-height:1.2; text-decoration: none; 
+}
+
+.profileintextnormalgrey {
+	font-family:clearlygoth; font-size: 16px; color: #70696a; 
+}
+
+
+.profileintextnormal {
+	font-family:Arial; font-size: 11px; color: #666;  
+}
+
+.profileintextbelow {
+	font-family:Arial; font-size: 12px; font-weight: normal; color: #aba5aa;  
+}
+
+
+.profileintextbelowbold {
+	font-family:Arial; font-size: 12px; font-weight: bold; color: #70666f;  
+}
+
+
+.contactintexthead {
+	font-family: clearlygothic; font-size: 34px; color: #c5c4c4; text-align: left; text-decoration: none; 
+}
+
+.contactintextheadsub {
+	font-family: clearlygothic; font-size: 18px; color: #ddb671; text-align: left;  text-decoration: none; 
+}
+
+.contactintextbelow {
+	font-family:Arial; font-size: 12px; font-weight: normal; color: #393737;  
+}
+
+.contactintextbelowcenter {
+	font-family:Arial; font-size: 11px; font-weight: normal; color: #393737; text-align:center; 
+}
+
+.contactintextbelowcenterhome {
+		font-size: 14px;
+	font-weight: bold; text-align:center;
+	text-decoration: none; padding-left:0px; padding-right:0px; line-height:1.5;
+	color: #000000;
+}
+
+
+
+
+.lumiform {
+	font-family: Arial;
+	font-size: 12px; width:385px;
+	color: #6f6e6e; border: 1px solid #b7b7b7;
+	text-align: right;  text-decoration: none; font-weight: normal; line-height:1.2; padding-top:5px; padding-bottom:5px; padding-right:5px;
+}
+
+
+.seduintexthead {
+	font-family: clearlygothic; font-size: 34px; color: #c5c4c4; text-align: left; line-height:1.1; text-decoration: none; 
+}
+
+.seduintextheadsub {
+	font-family: clearlygothic; font-size: 18px; color: #f3a679; text-align: left; line-height:1.2; text-decoration: none; 
+}
+
+.seduintextnormalgrey {
+	font-family:clearlygoth; font-size: 16px; color: #70696a; 
+}
+
+
+.seduintextnormal {
+	font-family:Arial; font-size: 12px; color: #7d7b7b;  
+}
+
+.seduintextbelow {
+	font-family:Arial; font-size: 12px; font-weight: normal; color: #aba5aa;  
+}
+
+
+.seduintextbelowbold {
+	font-family:Arial; font-size: 12px; font-weight: bold; color: #70666f;  
+}
+
+
+
+.excintexthead {
+	font-family: clearlygothic; font-size: 34px; color: #c5c4c4; text-align: left; line-height:1.1; text-decoration: none; 
+}
+
+.excintextheadsub {
+	font-family: clearlygothic; font-size: 18px; color: #afaaa8; text-align: left; line-height:1.2; text-decoration: none; 
+}
+
+.excintextnormal {
+	font-family:Arial; font-size: 12px; color: #585555;  
+}
+
+
+.box_excl {
+  border: 1px solid  #FFF;  
+}
+.box_excl:hover {
+	opacity:1.0;
+	  border: 1px solid #e2cf6c;  
+
+  }
+
+.box_excl2 {
+  border: 1px solid  #FFF;  
+}
+.box_excl2:hover {
+	opacity:1.0;
+	  border: 1px solid #d59e96;  
+
+  }
+
+.box_excl3 {
+  border: 1px solid  #FFF;  
+}
+.box_excl3:hover {
+	opacity:1.0;
+	  border: 1px solid #72a672;  
+
+  }
+
+.box_excl4 {
+  border: 1px solid  #FFF;  
+}
+.box_excl4:hover {
+	opacity:1.0;
+	  border: 1px solid #656464;  
+
+  }
+
+
+
+.exclboxhead {
+	font-family:clearlygoth; font-size: 18px; color: #e2cf6c; 
+}
+
+.exclboxnormal {
+	font-family:Arial; font-size: 12px; color: #484343;  
+}
+
+
+.exclboxhead2 {
+	font-family:clearlygoth; font-size: 18px; color: #d59e96; 
+}
+
+.exclboxnormal2 {
+	font-family:Arial; font-size: 12px; color: #484343;  
+}
+
+
+.exclboxhead3 {
+	font-family:clearlygoth; font-size: 18px; color: #72a672; 
+}
+
+.exclboxnormal3 {
+	font-family:Arial; font-size: 12px; color: #484343;  
+}
+
+
+
+.pressintexthead {
+	font-family: clearlygothic; font-size: 34px; color: #c5c4c4; text-align: left; line-height:1.1; text-decoration: none; 
+}
+
+.pressintextheadsub {
+	font-family: clearlygothic;
+	font-size: 18px;
+	color: #e75e24;
+	text-align: left;
+	line-height: 1.2;
+	text-decoration: none;
+}
+
+.pressintextnormalgrey {
+	font-family:clearlygoth; font-size: 16px; color: #70696a; 
+}
+
+
+.pressintextnormal {
+	font-family:Arial; font-size: 12px; color: #7d7b7b;  
+}
+
+.pressintextdark {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+}
+
+
+.pressintextlight {
+	font-family:Arial; font-size: 12px; font-weight: normal; color: #bab6b6;  
+}
+
+
+
+
+
+
+.conditionintexthead {
+	font-family: clearlygothic; font-size: 34px; color: #c5c4c4; text-align: left; line-height:1.1; text-decoration: none; 
+}
+
+.conditionintextheadsub {
+	font-family: clearlygothic; font-size: 18px; color: #f0a156; text-align: left; line-height:1.2; text-decoration: none; 
+}
+
+
+.conditionintextnormal {
+	font-family:Arial; font-size: 12px; color: #585656;  
+}
+
+
+.treatintexthead {
+	font-family: clearlygothic; font-size: 34px; color: #c5c4c4; text-align: left; line-height:1.1; text-decoration: none; 
+}
+
+.treatintextheadsub {
+	font-family: clearlygothic; font-size: 18px; color: #afaaa8; text-align: left; line-height:1.2; text-decoration: none; 
+}
+
+.treatintextnormal {
+	font-family:Arial; font-size: 12px; color: #585555;  
+}
+
+.treatintextnormaldetails {
+	font-family: Arial; font-size: 12px; color: #585555;  
+}
+
+
+.treatintext_thedetails {
+	font-family:arial; font-size: 14px; color: #333;  
+}
+
+.treatintext_thedetails_bold {
+	font-family:arial; font-size: 12px; color: #333; font-weight:bold ; font-style:italic; line-height:1.2; padding-bottom:5px;
+}
+
+
+
+
+.treatboxhead {
+	font-family:clearlygoth; font-size: 18px; color: #e2cf6c; 
+}
+
+.treatboxhead_b {
+	font-family:clearlygoth; font-size: 24px; color: #e2cf6c; 
+}
+
+
+.treatboxhead2 {
+	font-family:clearlygoth; font-size: 18px; color: #d3e26c; 
+}
+
+.treatboxhead2_b {
+	font-family:clearlygoth; font-size: 24px; color: #d3e26c; 
+}
+
+
+.treatboxhead3 {
+	font-family:clearlygoth; font-size: 18px; color: #6cd3e2; 
+}
+
+.treatboxhead3_b {
+	font-family:clearlygoth; font-size: 24px; color: #6cd3e2; 
+}
+
+
+
+.treatboxhead4 {
+	font-family:clearlygoth; font-size: 18px; color: #f8bebb; 
+}
+
+.treatboxhead4_b {
+	font-family:clearlygoth; font-size: 24px; color: #f8bebb; 
+}
+
+.treatboxhead5 {
+	font-family:clearlygoth; font-size: 18px; color: #a8ce95; 
+}
+
+.treatboxhead5_b {
+	font-family:clearlygoth; font-size: 24px; color: #a8ce95; 
+}
+
+
+.treatboxhead6 {
+	font-family:clearlygoth; font-size: 18px; color: #f5cf98; 
+}
+
+.treatboxhead6_b {
+	font-family:clearlygoth; font-size: 24px; color: #f5cf98; 
+}
+
+
+
+
+.treatboxnormal {
+	font-family:Arial; font-size: 12px; color: #484343;  
+}
+
+
+.box_treat_details {
+  border: 1px solid  #b7b7b7; text-align:center;  width:100px; height: 30px;
+}
+.box_treat_details:hover {
+	opacity:1.0;
+	  border: 1px solid #000; color:#930; 
+
+  }
+
+.treatbox_detail_button {
+	font-family:Arial; font-size: 12px; color: #b7b7b7; text-transform:uppercase; text-decoration:none;
+}
+
+.treatbox_detail_button:link {
+	color: #b7b7b7;
+}
+
+.treatbox_detail_button:visited {
+  color: #b7b7b7;
+}
+
+.treatbox_detail_button:hover {
+	color: #000; 
+}
+
+.treatbox_detail_button:active {
+	color: #b7b7b7;
+}
+
+
+.clinicintexthead {
+	font-family: clearlygothic; font-size: 34px; color: #c5c4c4; text-align: left; line-height:1.1; text-decoration: none; 
+}
+
+.clinicintextheadsub {
+	font-family: clearlygothic; font-size: 18px; color: #56afe8; text-align: left; line-height:1.2; text-decoration: none; 
+}
+
+.clinicintextnormalgrey {
+	font-family:clearlygoth; font-size: 16px; color: #70696a; 
+}
+
+
+.clinicintextnormal {
+	font-family:Arial; font-size: 12px; color: #7d7b7b;  
+}
+
+.clinicintextbelow {
+	font-family:Arial; font-size: 12px; font-weight: normal; color: #4c4b4b;  
+}
+
+
+
+
+
+
+
+
+.books {
+	font-family:Arial;
+	font-size: 12px;
+	color: #F60; font-weight:bold; text-transform:uppercase;
+
+}
+
+.com {
+	font-family:Arial;
+	font-size: 12px;
+	color: #666; font-weight: normal; 
+
+}
+
+
+
+
+.cart {
+	font-family: Arial;
+	font-size: 11px;
+	color: #F60;
+	text-align: left;  text-decoration: none; padding-left:5px; font-weight:bold;
+}
+
+.cart:link {
+	color: #F60;
+}
+
+.cart:visited {
+  color: #F60;
+}
+
+.cart:hover {
+	color: #000;
+}
+
+.cart:active {
+	color: #F60;
+}
+
+
+.searchbox {
+	font-family: Arial;
+	font-size: 14px; width:500px;
+	color: #666;
+	text-align: left;  text-decoration: none; font-weight:bold; line-height:2.0;
+}
+
+
+.topseller {
+	font-family: Arial;
+	font-size: 12px;
+	color: #fff;
+	text-align: left;  text-decoration: none; font-weight:bold; line-height:2.0; text-transform:uppercase; padding-left:10px;
+}
+
+.pagetable {
+  width:690px; background:#eeeeee; 
+}
+
+
+.searchresulttest {
+	font-family: "Segoe UI";
+	font-size: 11px;
+	color: #999;
+	text-align: left;  text-decoration: none; font-weight: normal; line-height:1.2; padding-top:5px; padding-bottom:5px; padding-left:10px; padding-right:10px;
+}
+
+.productname {
+	font-family: Arial;
+	font-size: 14px;
+	color: #666;
+	text-align: left;  text-decoration: none; font-weight: bold; padding-left:10px; line-height:1.2;
+}
+
+.pricetophead {
+	font-family: Arial;
+	font-size: 14px;
+	color: #666;
+	text-align: left;  text-decoration: none; font-weight: bold;  padding-left:10px; line-height:1.2;
+}
+
+.buynowhead {
+	font-family: Arial;
+	font-size: 14px;
+	color: #666;
+	text-align: left;  text-decoration: none; font-weight: bold; padding-left:10px; line-height:1.2;
+}
+
+
+.book_t {
+  border: 1px solid  #d6d6d6; width:165px; background:#eeeeee; 
+}
+.book_t:hover {
+	opacity:1.0;
+	  border: 1px solid #fb9f13;  
+
+  }
+
+
+.book_t2 {
+  border: 1px solid  #d6d6d6; width:690px; background:#eeeeee; 
+}
+.book_t2:hover {
+	opacity:1.0;
+	  border: 1px solid #fb9f13;  
+
+  }
+
+
+.bookthumb { text-align:center;
+}
+
+
+.bookthumbdetails {
+	font-family: Arial;
+	font-size: 12px;
+	color: #666;
+	text-align: left;  text-decoration: none; font-weight: normal; line-height:1.2; padding-top:5px; padding-bottom:5px;
+}
+
+.bookthumbdetails:link {
+	color: #666;
+}
+
+.bookthumbdetails:visited {
+  color: #666;
+}
+
+.bookthumbdetails:hover {
+	color: #F60;
+}
+
+.bookthumbdetails:active {
+	color: #666;
+}
+
+
+
+.bookthumbdetails2 {
+	font-family: Arial;
+	font-size: 16px;
+	color: #666;
+	text-align: left;  text-decoration: none; font-weight: bold; line-height:1.2; padding-top:5px; padding-bottom:5px;
+}
+
+.bookthumbdetails2:link {
+	color: #666;
+}
+
+.bookthumbdetails2:visited {
+  color: #666;
+}
+
+.bookthumbdetails2:hover {
+	color: #F60;
+}
+
+.bookthumbdetails2:active {
+	color: #666;
+}
+
+
+
+.author {
+	font-family: Arial;
+	font-size: 14px;
+	color: #333;
+	text-align: left;  text-decoration: none; font-weight: normal; line-height:1.2;
+}
+
+.edition {
+	font-family: Arial;
+	font-size: 14px;
+	color: #666;
+	text-align: left;  text-decoration: none; font-weight: normal; line-height:1.2;
+}
+
+
+.USISBN {
+	font-family: Arial;
+	font-size: 14px;
+	color: #999;
+	text-align: left;  text-decoration: none; font-weight: normal; line-height:1.2;
+}
+
+.INTISBN {
+	font-family: Arial;
+	font-size: 14px;
+	color: #999;
+	text-align: left;  text-decoration: none; font-weight: normal; line-height:1.2;
+}
+
+
+
+.pricehead {
+	font-family: Arial;
+	font-size: 12px;
+	color: #333;
+	text-align: left;  text-decoration: none; font-weight: normal; line-height:1.2; padding-top:5px; padding-bottom:5px;
+}
+
+
+.pricecut {
+	font-family: Arial;
+	font-size: 12px;
+	color: #333;
+	text-align: left;  text-decoration: line-through; font-weight: bold; line-height:1.2; padding-top:5px; padding-bottom:5px;
+}
+
+.price {
+	font-family: Arial;
+	font-size: 12px;
+	color: #333;
+	text-align: left;  text-decoration: none; font-weight: bold; line-height:1.2; padding-top:5px; padding-bottom:5px; padding-left:5px;
+}
+
+
+.pricecut2 {
+	font-family: Arial;
+	font-size: 12px;
+	color: #333;
+	text-align: center;  text-decoration: line-through; font-weight: bold; line-height:1.2; padding-top:5px; padding-bottom:5px;
+}
+
+.price2 {
+	font-family: Arial;
+	font-size: 12px;
+	color: #333;
+	text-align: center;  text-decoration: none; font-weight: bold; line-height:1.2;padding-top:5px; padding-bottom:5px;
+}
+
+
+.ISBN {
+	font-family: Arial;
+	font-size: 11px;
+	color: #333;
+	text-align: left;  text-decoration: none; font-weight: normal; line-height:1.2; padding-top:5px; padding-bottom:5px;
+}
+
+
+.addtowishlisttitle {
+	font-family: Arial;
+	font-size: 15px;
+	color: #F90;
+	text-align: left;  text-decoration: none; font-weight: bold; line-height:1.2; padding-top:5px; padding-bottom:5px; padding-left:10px;
+}
+
+.addtowishlisttext {
+	font-family: "Segoe UI";
+	font-size: 11px;
+	color: #333;
+	text-align: left;  text-decoration: none; font-weight: normal; line-height:1.2; padding-top:5px; padding-bottom:5px; padding-left:10px; padding-right:10px;
+}
+
+.addtowishlistform {
+	font-family: Arial;
+	font-size: 11px;
+	color: #333;
+	text-align: right;  text-decoration: none; font-weight: bold; line-height:1.2; padding-top:5px; padding-bottom:5px; padding-right:5px;
+}
+
+
+.addtowishlisttextfield {
+	font-family: Arial;
+	font-size: 11px; width:100px;
+	color: #666;
+	text-align: left;  text-decoration: none; font-weight:normal; border: 1px solid #999; 
+}
+
+
+.intertexthead {
+	font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold; text-align:left;
+	text-decoration: none; padding-left:50px; padding-right:50px; line-height:1.5;
+	color: #F90;
+}
+
+.intertextstatic {
+	font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal; text-align:left;
+	text-decoration: none; line-height:1.5;
+	color: #FFF;
+}
+
+.intertextstaticorange {
+	font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal; text-align:left;
+	text-decoration: none; line-height:1.5;
+	color: #FC0;
+}
+
+
+.intertext {
+	font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal; text-align:left;
+	text-decoration: none; 
+	color: #FFF;
+}
+
+.intertext:link {
+	color: #fff; text-decoration:underline;
+}
+
+.intertext:visited {
+  color: #fff;
+}
+
+.intertext:hover {
+	color: #F90;
+}
+
+.intertext:active {
+	color: #fff;
+}
+
+
+
+.footerlinks {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	font-weight: normal; text-align: center;
+	text-decoration: none; padding-right:10px; padding-left:10px; line-height:2.0;
+	color: #FFF; 
+}
+
+.footerlinks:link {
+	color: #fff; 
+}
+
+.footerlinks:visited {
+  color: #fff;
+}
+
+.footerlinks:hover {
+	color: #F90;
+}
+
+.footerlinks:active {
+	color: #fff;
+}
+
+
+.footer {
+	font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal; text-align:center;
+	text-decoration: none; padding-left:0px; padding-right:0px; line-height:1.5;
+	color: #CCC;
+}
+
+
+.searchresulttitle {
+	font-family: Arial;
+	font-size: 15px;
+	color: #0678c3;
+	text-align: left;  text-decoration: none; font-weight: bold; line-height:1.2; padding-top:5px; padding-bottom:5px; 
+}
+
+.book_big {
+  border: 1px solid  #d6d6d6; width:270px; background:#eeeeee; 
+}
+
+.booktitle {
+	font-family: Arial;
+	font-size: 15px;
+	color: #0678c3 ;
+	text-align: left;  text-decoration: none; font-weight: bold; line-height:1.2; padding-top:5px; padding-bottom:5px; 
+}
+
+.bookdetails {
+	font-family: Arial;
+	font-size: 12px;
+	color: #666;
+	text-align: right;  text-decoration: none; font-weight: bold;  padding-top:3px; padding-bottom:3px; 
+}
+
+.colon {
+	font-family: Arial;
+	font-size: 12px;
+	color: #999;
+	text-align: center;  text-decoration: none; font-weight: normal; 
+}
+
+.quantitytextfield {
+	font-family: Arial;
+	font-size: 14px; width:30px;
+	color: #666;
+	text-align: left;  text-decoration: none; font-weight:bold; border: 1px solid #999; 
+}
+
+.useditionsmall {
+	font-family: Arial;
+	font-size: 9px; 
+	color: #666;
+	text-align: center;  text-decoration: none; font-weight:normal; padding-top:5px;
+}
+
+
+.intleditionsmall {
+	font-family: Arial;
+	font-size: 9px; 
+	color: #666;
+	text-align: center;  text-decoration: none; font-weight:normal; padding-top:5px;
+}
+
+
+.pressdetails {
+	font-family:Arial; font-size: 11px; color: #484343;  
+}
+
+.pressdetail_head {
+	font-family:clearlygoth; font-size: 24px; color: #333; 
+}
