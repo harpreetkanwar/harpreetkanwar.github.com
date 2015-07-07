@@ -170,6 +170,11 @@ body {
 	text-align: right;  text-decoration: none; font-weight: normal; line-height:1.2; padding-top:5px; padding-bottom:5px; padding-right:5px;
 }
 
+.hidden {
+	font-family: Arial;
+	font-size: 1px; width:385px;
+	color: #f8f8ff;
+	}
 
 .seduintexthead {
 	font-family: clearlygothic; font-size: 34px; color: #c5c4c4; text-align: left; line-height:1.1; text-decoration: none; 
