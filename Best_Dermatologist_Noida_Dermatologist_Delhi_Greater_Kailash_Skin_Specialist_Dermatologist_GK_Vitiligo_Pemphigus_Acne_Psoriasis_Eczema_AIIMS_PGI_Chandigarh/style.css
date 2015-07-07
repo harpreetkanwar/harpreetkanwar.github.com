@@ -35,8 +35,8 @@ a { outline:0; border:0; }
 
 .trip{ float:left; padding:20px 0 0 40px; width:520px;}
 .Testimonials{ float:right; width:390px; padding:10px 0 0 0;}
-.Testimonials h1{padding:0 0 8px 0; color:#9A9A9A; font-size:23px; font-weight:bold; }
-.Testimonials h2{padding:0 0 8px 0; color:#9A9A9A; font-size:18px; font-weight:bold; }
+.Testimonials h1{padding:0 0 8px 0; color:#9A9A9A; font-size:16px; font-weight:bold; }
+.Testimonials h2{padding:0 0 8px 0; color:#9A9A9A; font-size:14px; font-weight:bold; }
 .Testimonials p{padding:0 0 8px 0; color:#000; font-size:15px; font-weight:normal; }
 .Testimonials p a{color:#000; text-decoration:none;}
 
