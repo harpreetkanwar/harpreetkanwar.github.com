@@ -40,6 +40,37 @@ a { outline:0; border:0; }
 .Testimonials p{padding:0 0 8px 0; color:#000; font-size:15px; font-weight:normal; }
 .Testimonials p a{color:#000; text-decoration:none;}
 
+ 
+.css-slideshow{
+   position: relative;
+   height: 404px;
+   margin: 5em auto .5em auto;
+}
+.css-slideshow figure{
+   margin: 0;
+   position: absolute;
+}
+.css-slideshow figcaption{
+   position: absolute;
+   top: 0;
+   color: #fff;
+   background: rgba(0,0,0, .3);
+   font-size: .8em;
+   padding: 8px 12px;
+   opacity: 0;
+   transition: opacity .5s;
+}
+.css-slideshow:hover figure figcaption{
+   transition: opacity .5s;
+   opacity: 1;
+}
+.css-slideshow figure{
+   opacity:0;
+}
+ 
+ 
+
+
 
 #slideshow {
     position:relative;
